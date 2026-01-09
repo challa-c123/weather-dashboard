@@ -20,3 +20,6 @@ A beginner-friendly weather app that shows live weather by city using the OpenWe
 ## Live Demo
 This project uses an API key which is not committed to GitHub.
 To run locally, follow the setup steps below.
+## Screenshot
+![Weather Dashboard](screenshots/home.png)
+
