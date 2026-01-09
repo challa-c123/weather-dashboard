@@ -16,3 +16,7 @@ A beginner-friendly weather app that shows live weather by city using the OpenWe
 2. Create `config.js` and add your API key:
    `window.WEATHER_API_KEY = "YOUR_KEY";`
 3. Open `index.html` in your browser
+
+## Live Demo
+This project uses an API key which is not committed to GitHub.
+To run locally, follow the setup steps below.
