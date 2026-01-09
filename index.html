@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <header class="header">
+      <h1>Weather Dashboard</h1>
+      <p class="subtitle">Search any city to get live weather updates.</p>
+    </header>
+
+    <section class="card">
+      <form id="searchForm" class="search">
+        <input id="cityInput" type="text" placeholder="Enter city name (e.g., Chicago)" autocomplete="off" />
+        <button type="submit">Search</button>
+      </form>
+
+      <div id="status" class="status hidden"></div>
+
+      <div id="result" class="result hidden">
+        <div class="top">
+          <div>
+            <h2 id="cityName">—</h2>
+            <p id="condition" class="muted">—</p>
+          </div>
+          <div class="temp">
+            <span id="temp">—</span><span class="unit">°C</span>
+          </div>
+        </div>
+
+        <div class="grid">
+          <div class="box">
+            <p class="label">Feels Like</p>
+            <p id="feelsLike" class="value">—</p>
+          </div>
+          <div class="box">
+            <p class="label">Humidity</p>
+            <p id="humidity" class="value">—</p>
+          </div>
+          <div class="box">
+            <p class="label">Wind</p>
+            <p id="wind" class="value">—</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>Built with HTML, CSS, JavaScript + OpenWeather API</p>
+    </footer>
+  </main>
+
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
